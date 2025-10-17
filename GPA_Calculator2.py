@@ -12,7 +12,7 @@ course_types = {
     "DC": 6.0
 }
 
-num_courses = st.number_input("How many courses?", min_value=1, max_value=20, value=7)
+num_courses = st.number_input("How many courses?", min_value=1, max_value=75, value=7)
 courses = []
 
 for i in range(num_courses):
